@@ -13,9 +13,9 @@ namespace UPJV\Validator;
 class EstValide implements ValidatorInterface 
 
 {
-	/**
-	*Construction parametre
-	*/
+/**
+*Construction parametre
+*/
     public function build(array $param): object 
 	
     {
@@ -23,8 +23,8 @@ class EstValide implements ValidatorInterface
     }
 
 /**
-	*Verification
-	*/
+*Verification
+*/
     public function check($input): bool 
 	
 	
