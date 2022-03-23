@@ -1,5 +1,9 @@
 <?php
 
+/**
+*salut
+*/
+
 namespace UPJV\Validator;
 
 class EstValide implements ValidatorInterface
