@@ -26,8 +26,12 @@ class EstValide implements ValidatorInterface
     }
 
 /**
-*Verification
-*/
+     * Test la longueur de la chaine de caractères
+     *
+     * @param $input
+     *
+     * @return bool
+     */
     public function check($input): bool 
 	
 	
