@@ -33,4 +33,4 @@ public function build(array $param): object
     {
         return true;
 		}
-}
+		}
