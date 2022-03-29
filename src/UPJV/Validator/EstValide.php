@@ -6,13 +6,9 @@
 
 namespace UPJV\Validator;
 
- /**
-     * Récupère la taille minimum spécifier dans la conf
-     *
-     * @param array $param
-     *
-     * @return object
-     */
+/**
+ * Validite interface
+ */
  
 class EstValide implements ValidatorInterface 
 
@@ -30,12 +26,8 @@ class EstValide implements ValidatorInterface
     }
 
 /**
-     * Récupère la taille minimum spécifier dans la conf
-     *
-     * @param array $param
-     *
-     * @return object
-     */
+*Verification
+*/
     public function check($input): bool 
 	
 	
