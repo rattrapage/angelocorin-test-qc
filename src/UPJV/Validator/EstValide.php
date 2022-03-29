@@ -7,7 +7,7 @@
 namespace UPJV\Validator;
 
 /**
- * Class Min implémente les méthode build & check
+ * Class EstValide implémente les méthode build & check
  */
 class EstValide implements ValidatorInterface 
 
@@ -24,7 +24,7 @@ class EstValide implements ValidatorInterface
         return $this;
     }
 
-/**
+    /**
      * Test la longueur de la chaine de caractères
      *
      * @param $input
@@ -32,8 +32,6 @@ class EstValide implements ValidatorInterface
      * @return bool
      */
     public function check($input): bool 
-	
-	
 	
     {
         return true;
