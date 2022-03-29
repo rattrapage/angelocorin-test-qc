@@ -6,9 +6,13 @@
 
 namespace UPJV\Validator;
 
-/**
- * Validite interface
- */
+ /**
+     * Récupère la taille minimum spécifier dans la conf
+     *
+     * @param array $param
+     *
+     * @return object
+     */
  
 class EstValide implements ValidatorInterface 
 
