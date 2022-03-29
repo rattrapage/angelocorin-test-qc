@@ -30,8 +30,12 @@ class EstValide implements ValidatorInterface
     }
 
 /**
-*Verification
-*/
+     * Récupère la taille minimum spécifier dans la conf
+     *
+     * @param array $param
+     *
+     * @return object
+     */
     public function check($input): bool 
 	
 	
