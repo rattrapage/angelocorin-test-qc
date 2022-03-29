@@ -10,14 +10,14 @@ namespace UPJV\Validator;
  * Class EstValide implémente les méthode build & check
  */
 class EstValide implements ValidatorInterface
-{
-/**
-* Récupère la taille minimum spécifier dans la conf
-*
-* @param array $param
-*
-* @return object
-*/
+	{
+	/**
+	* Récupère la taille minimum spécifier dans la conf
+	*
+	* @param array $param
+	*
+	* @return object
+	*/
 public function build(array $param): object
 	{
      return $this;
@@ -31,6 +31,6 @@ public function build(array $param): object
      */
     public function check($input): bool
     {
-        return true;
+	return true;
 	}
-	}
+}
