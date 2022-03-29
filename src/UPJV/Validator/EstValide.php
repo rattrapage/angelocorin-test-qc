@@ -18,10 +18,10 @@ class EstValide implements ValidatorInterface
 *
 * @return object
 */
-public function build(array $param): object 	
-    {
+public function build(array $param): object
+	{
      return $this;
-	 }
+	}
     /**
      * Test la longueur de la chaine de caractères
      *
@@ -32,5 +32,5 @@ public function build(array $param): object
     public function check($input): bool
     {
         return true;
-		}
-		}
+	}
+	}
